@@ -15,9 +15,14 @@ class dog(Mamale):
 class cat(Mamale):
     def meow(self):
         print("meow")
-
-cat = cat()
-cat.meow()
-cat.walk()
+#
+# cat = cat()
+# cat.meow()
+# cat.walk()
 
 #after inheritance subclass have access to all the methods defined under parent class
+
+
+
+def name(nm):
+    print(f"my name is {nm}")
